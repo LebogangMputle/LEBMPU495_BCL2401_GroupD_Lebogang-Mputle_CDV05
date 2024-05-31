@@ -7,7 +7,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
 }
 
 :root {
@@ -24,7 +24,7 @@ html {
 
 body {
     background: var(var(--bg-color));
-    font-family: "Poppins",sans-serif;
+    font-family: sans-serif;
 }
 
 html::-webkit-scrollbar {

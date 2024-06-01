@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
+  <!-- font awesome-->
+  <link rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <header class="header">
@@ -20,8 +25,45 @@
       <a href="#expirience">expirience</a>
       <a href="#contact">Contact</a>
     </nav>
+  </header>
 
-    </header>
+  <section class="home-content">
+    <div class="home-img">
+        <img src="" alt="">
+    </div>
+    <div>
+        <h1>Hi, It's <span>Lebogang</span></h1>
+        <h3 class="typing-text">I'm a <span></span></h3>
+        <p>
+            Additional Tips:
+
+Use browser developer tools (usually F12) to inspect the network requests and verify that the script file is being loaded correctly and with the appropriate MIME type.
+If you're still facing issues, provide more details about your code and environment for further troubleshooting.
+In your specific case:
+
+Since you've provided the HTML code, the issue likely lies with the script.js file itself or its loading process.
+
+Here are some additional points to consider:
+
+Check File Existence:
+
+Open the assets/js/script.js file in a text editor to confirm it contains JavaScript code and is not empty.
+Check MIME Type:
+
+Use browser developer tools to inspect the network request for the script.js file and verify that the response header shows the correct MIME type (application/javascript).
+     </p>
+
+     <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+     </div>
+     
+     <a href="#" class="btn">Hire Me</a>
+    </div>
+  </section>
 
 </body>
 </html>

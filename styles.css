@@ -57,7 +57,7 @@ html::-webkit-scrollbar-thumb {
   z-index: 100;
 }
 
-h1, h3, p {
+h1, h2, h3, p {
     color: var(--text-color);
 }
 
@@ -102,9 +102,8 @@ h1, h3, p {
   }
 
   .navbar {
-    position: absolute;
-    top: 100%;
-    right: 0;
+    position:relative;
+    right: 10rem;
     width: 40%;
     border-left: 3px solid var(--main-color);
     border-bottom: 3px solid var(--main-color);
@@ -112,7 +111,7 @@ h1, h3, p {
     padding: 1rem 3%;
     background-color: var(--second-bg-color);
     border-top: 0.1rem solid rgba(0, 0, 0, 0.1); /* Subtle top border */
-    display: none;
+    display: block;
   }
 
   .navbar.active {

@@ -131,7 +131,13 @@ section {
   padding: 5rem 9% 5rem;
 }
 
-.about-me  {
+.about-me-content {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.3; 
+}
+
+.about-me {
     color: var(--main-color);
     font-size: 2.5rem;
     font-weight: 700;

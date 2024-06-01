@@ -53,7 +53,7 @@ html ::-webkit-scrollbar-thumb{
     z-index: 100;
 }
 
-logo {
+.logo {
     font-size: 3rem;
     color: var(--main-color);
     font-weight: 800;

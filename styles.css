@@ -128,30 +128,60 @@ h1, h2, h3, p {
 /* Section styling */
 section {
   min-height: 100vh;
-  padding: 5rem 9% 5rem;
+  padding: 0px;
 }
 
 .about-me-content {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 200;
     line-height: 1.3; 
 }
 
 .about-me {
     color: var(--main-color);
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1.3;  
+    font-size: 100px;
+    font-weight: 700;  
+}
+
+.about-me-paragraph {
+    padding: 0px 20px;
+}
+
+.skills-header {
+    font-size: 100px;
 }
 
 
+.skills-list {
+    color: var(--main-color);
+    font-size: 2.5rem;
+    line-height: 2.3;
+    padding-bottom: 20px;
+}
+
+.skills-content {
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.additional-skills {
+    padding-top: 200px;
+    font-size: 20px; 
+}
+
+.additional-skills-header {
+    font-size: 90px;
+}
 
 .ul {
     color: var(--main-color);
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 1.3;
 }
+
+
 
 /* Home section styles */
 .home {
@@ -181,6 +211,7 @@ section {
   .home-img {
     border-radius: 50%;
   }
+
   
   .home-img img {
     position: relative;
@@ -188,6 +219,7 @@ section {
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
+    padding: 20px;
   }
   
   .home-img img:hover {
